@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caefa299-784a-4a2c-9825-d106d4b26b45" name="Changes" comment="Add gunicorn to requirements.txt">
+    <list default="true" id="caefa299-784a-4a2c-9825-d106d4b26b45" name="Changes" comment="Update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -86,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727277722644</updated>
       <workItem from="1727277724010" duration="45911000" />
-      <workItem from="1727861050138" duration="11573000" />
+      <workItem from="1727861050138" duration="12291000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -160,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728402905145</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1728404464297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728404464297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +184,8 @@
     <MESSAGE value="Return jsonified week" />
     <MESSAGE value="Add requirements.txt" />
     <MESSAGE value="Add gunicorn to requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gunicorn to requirements.txt" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nfl_fantasy_manager_espn_api$ref_getter.coverage" NAME="ref_getter Coverage Results" MODIFIED="1727279084966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />

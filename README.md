@@ -1,3 +1,4 @@
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/moritzpossecker/headcoach-espn-api/releases/tag/v1.0.0) 
 # NFL API
 
 This is a Flask-based API that provides various endpoints for retrieving NFL-related data.
