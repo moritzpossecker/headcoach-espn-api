@@ -6,6 +6,7 @@ This is a Flask-based API that provides various endpoints for retrieving NFL-rel
 
 ### 1. /all-nfl-teams
 
+* https://headcoach-espn-api.onrender.com/all-nfl-teams
 * Method: GET
 * Returns: A JSON response containing a list of all NFL teams for the current season.
 
@@ -35,17 +36,25 @@ Example response:
 
 ### 2. /current-week
 
+* https://headcoach-espn-api.onrender.com/current-week
 * Method: GET
-* Returns: A string response indicating the current week of the NFL season.
+* Returns: A JSON response containing the current week of the NFL season.
 
 Example response:
 
 ```json
-5
+{
+    "EndDate": "Wed, 09 Oct 2024 06:59:00 GMT",
+    "Id": 52024,
+    "Number": 5,
+    "Season": 2024,
+    "StartDate": "Wed, 02 Oct 2024 07:00:00 GMT"
+}
 ```
 
 ### 3. /games
 
+* https://headcoach-espn-api.onrender.com/games?week=5
 * Method: GET
 * Parameters:
     * `week`: The week number for which to retrieve games (required)
@@ -64,7 +73,8 @@ Example response:
     "RecapAvailable": true,
     "RefUrl": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401671808?lang=en&region=us",
     "ShortName": "NE @ NYJ",
-    "Uid": "s:20~l:28~e:401671808"
+    "Uid": "s:20~l:28~e:401671808",
+    "WeekId": 42024
   },
   ...
 ]
@@ -72,6 +82,7 @@ Example response:
 
 ### 4. /athletes
 
+* https://headcoach-espn-api.onrender.com/athletes?positionId=8
 * Method: GET
 * Parameters:
     * `positionId`: The ID of the position for which to retrieve athletes (required)
@@ -105,6 +116,7 @@ Example response:
 
 ### 5. /team-performance
 
+* https://headcoach-espn-api.onrender.com/athletes?week=3&teamId=20
 * Method: GET
 * Parameters:
     * `week`: The week number for which to retrieve team performance data (required)
@@ -143,6 +155,7 @@ Example response:
 
 ### 6. /athlete-performance
 
+* https://headcoach-espn-api.onrender.com/athletes?week=3&teamId=2&athleteId=3918298
 * Method: GET
 * Parameters:
     * `week`: The week number for which to retrieve athlete performance data (required)
