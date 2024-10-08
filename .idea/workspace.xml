@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caefa299-784a-4a2c-9825-d106d4b26b45" name="Changes" comment="add exception handling to get_athletes_thread">
+    <list default="true" id="caefa299-784a-4a2c-9825-d106d4b26b45" name="Changes" comment="Add requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints/athlete_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints/athlete_getter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints/current_week_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints/current_week_getter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints/game_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints/game_getter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727277722644</updated>
       <workItem from="1727277724010" duration="45911000" />
-      <workItem from="1727861050138" duration="8759000" />
+      <workItem from="1727861050138" duration="10015000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -115,7 +112,47 @@
       <option name="project" value="LOCAL" />
       <updated>1727370961035</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change 'url' to 'href' in headshot">
+      <option name="closed" value="true" />
+      <created>1728401677701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728401677701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="return week dict instead of int">
+      <option name="closed" value="true" />
+      <created>1728401739206</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728401739206</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add WeekId to game">
+      <option name="closed" value="true" />
+      <created>1728401778081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728401778081</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Return jsonified week">
+      <option name="closed" value="true" />
+      <created>1728401817859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728401817859</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add requirements.txt">
+      <option name="closed" value="true" />
+      <created>1728402347076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728402347076</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +162,12 @@
     <MESSAGE value="init" />
     <MESSAGE value="add position_mapping.md" />
     <MESSAGE value="add exception handling to get_athletes_thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="add exception handling to get_athletes_thread" />
+    <MESSAGE value="change 'url' to 'href' in headshot" />
+    <MESSAGE value="return week dict instead of int" />
+    <MESSAGE value="Add WeekId to game" />
+    <MESSAGE value="Return jsonified week" />
+    <MESSAGE value="Add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add requirements.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nfl_fantasy_manager_espn_api$ref_getter.coverage" NAME="ref_getter Coverage Results" MODIFIED="1727279084966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
