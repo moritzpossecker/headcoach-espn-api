@@ -61,7 +61,7 @@ def get_athletes_thread(ref: str, position_id: int, team_id: int, athletes: list
     except KeyError:
         athlete['Age'] = None
     try:
-        athlete['HeadshotUrl'] = data['headshot']['url']
+        athlete['HeadshotUrl'] = data['headshot']['href']
     except KeyError:
         athlete['HeadshotUrl'] = None
 
