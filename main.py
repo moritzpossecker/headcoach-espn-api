@@ -19,7 +19,7 @@ def request_all_nfl_teams():
 
 @app.route('/current-week', methods=['GET'])
 def request_current_week():
-    return str(get_current_week()), 200
+    return jsonify(get_current_week()), 200
 
 
 @app.route('/games', methods=['GET'])
