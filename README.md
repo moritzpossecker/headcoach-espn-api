@@ -46,7 +46,7 @@ Example response:
 ```json
 {
     "EndDate": "Wed, 09 Oct 2024 06:59:00 GMT",
-    "Id": 52024,
+    "Id": 20245,
     "Number": 5,
     "Season": 2024,
     "StartDate": "Wed, 02 Oct 2024 07:00:00 GMT"
@@ -75,7 +75,7 @@ Example response:
     "RefUrl": "http://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401671808?lang=en&region=us",
     "ShortName": "NE @ NYJ",
     "Uid": "s:20~l:28~e:401671808",
-    "WeekId": 42024
+    "WeekId": 20244
   },
   ...
 ]

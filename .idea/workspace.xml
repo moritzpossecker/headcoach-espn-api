@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caefa299-784a-4a2c-9825-d106d4b26b45" name="Changes" comment="Update README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nfl-fantasy-manager-espn-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nfl-fantasy-manager-espn-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints/current_week_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints/current_week_getter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoints/game_getter.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints/game_getter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +89,7 @@
       <workItem from="1727277724010" duration="45911000" />
       <workItem from="1727861050138" duration="12291000" />
       <workItem from="1728732099275" duration="4007000" />
-      <workItem from="1728919397315" duration="3719000" />
+      <workItem from="1728919397315" duration="3874000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
