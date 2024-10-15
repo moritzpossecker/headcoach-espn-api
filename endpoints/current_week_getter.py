@@ -17,7 +17,7 @@ def get_current_week() -> dict:
         now = datetime.now()
         if start_date <= now <= end_date:
             return {
-                'Id': int(str(entry['value']) + str(current_season)),
+                'Id': int(str(current_season) + str(entry['value'])),
                 'Number': int(entry['value']),
                 'Season': current_season,
                 'StartDate': start_date,

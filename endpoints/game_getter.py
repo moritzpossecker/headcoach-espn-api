@@ -17,7 +17,7 @@ def get_games(week: int) -> list[dict]:
         game = {
             'RefUrl': data['$ref'],
             'Id': int(data['id']),
-            'WeekId': int(str(week) + str(get_current_season())),
+            'WeekId': int(str(get_current_season()) + str(week)),
             'Uid': data['uid'],
             'Date': datetime.strptime(data['date'], '%Y-%m-%dT%H:%MZ'),
             'Name': data['name'],
